@@ -1,0 +1,8 @@
+Private Sub Form_Load()
+
+Me.Hide
+
+End Sub
+
+Private Sub Timer1_Timer()
+end

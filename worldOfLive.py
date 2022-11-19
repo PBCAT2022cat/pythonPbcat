@@ -115,7 +115,7 @@ class cell:
                 elif self.cells[i][x][1] == 0:#fire die
                     self.cells[i][x][2]=0
                 
-                if self.die > 10000:
+                if self.die > 100000000:
                     self.dies = self.dies+'|'
                     self.die = 0
         if alive != 0:
